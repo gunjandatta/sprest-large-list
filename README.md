@@ -31,4 +31,4 @@ The "GetAllItems" flag will check the results for the __next property. This prop
 ### Demo
 Below is a screen show of the landing page. After querying the results, it displays the # of results and outputs the first and last item "Title" values.
 
-![Demo](https://raw.githubusercontent.com/gunjandatta/sprest-large-list/master/images/demo.png)
+![Demo](https://github.com/gunjandatta/sprest-large-list/raw/master/Dev.LargeListExample/Images/demo.png)
