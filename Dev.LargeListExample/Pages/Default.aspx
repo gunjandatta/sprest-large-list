@@ -24,6 +24,6 @@
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
-    <a href="lists/dev">Link to Dev List</a>
+    <a href="../lists/dev">Link to Dev List</a>
     <div id="dev">Querying the data....</div>
 </asp:Content>
