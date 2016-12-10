@@ -61,7 +61,6 @@
     <Content Include="node_modules\gd-sprest\dist\gd-sprest.min.js" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
-    <None Include="README.md" />
     <None Include="SharePointProjectItem.spdata">
       <SharePointProjectItemId>{c6a53b5e-fb3c-4356-9f3c-0b9839d78c59}</SharePointProjectItemId>
     </None>
