@@ -3,6 +3,6 @@
   "name": "dev_rest5000",
   "private": true,
   "dependencies": {
-    "gd-sprest": "^0.9.93"
+    "gd-sprest": "^0.9.94"
   }
 }
