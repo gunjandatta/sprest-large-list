@@ -2,6 +2,13 @@
 <List xmlns:ows="Microsoft SharePoint" Title="Dev" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Dev" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
   <MetaData>
     <ContentTypes>
+      <ContentType ID="0x0100cb2be0a1178d4fca868abb2596fb3cd6" Name="ListFieldsContentType">
+        <FieldRefs>
+          <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{1b83478c-212d-41bc-9523-ddce1c6f1a10}" Name="Choice" />
+          <FieldRef ID="{e6e7878d-78af-408c-8ddc-3129f033364d}" Name="IndexedChoice" />
+        </FieldRefs>
+      </ContentType>
       <ContentTypeRef ID="0x01">
         <Folder TargetName="Item" />
       </ContentTypeRef>
@@ -9,6 +16,24 @@
     </ContentTypes>
     <Fields>
       <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{1b83478c-212d-41bc-9523-ddce1c6f1a10}" Name="Choice" StaticName="Choice" DisplayName="Choice" Type="Choice" Required="TRUE">
+        <CHOICES>
+          <CHOICE>Choice 0</CHOICE>
+          <CHOICE>Choice 1</CHOICE>
+          <CHOICE>Choice 2</CHOICE>
+          <CHOICE>Choice 3</CHOICE>
+          <CHOICE>Choice 4</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{e6e7878d-78af-408c-8ddc-3129f033364d}" Name="IndexedChoice" StaticName="IndexedChoice" DisplayName="Indexed Choice" Type="Choice" Required="TRUE" Indexed="TRUE">
+        <CHOICES>
+          <CHOICE>Choice 0</CHOICE>
+          <CHOICE>Choice 1</CHOICE>
+          <CHOICE>Choice 2</CHOICE>
+          <CHOICE>Choice 3</CHOICE>
+          <CHOICE>Choice 4</CHOICE>
+        </CHOICES>
+      </Field>
     </Fields>
     <Views>
       <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
@@ -36,6 +61,8 @@
         <RowLimit Paged="TRUE">30</RowLimit>
         <ViewFields>
           <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="Role1" />
+          <FieldRef Name="IndexChoices" />
         </ViewFields>
         <Query>
           <OrderBy>
