@@ -4,7 +4,7 @@
 ExecuteOrDelayUntilScriptLoaded(initializePage, "sp.js");
 function initializePage() {
     // Get the list
-    (new $REST.List("Dev"))
+    $REST.List("Dev")
         // Get the list items
         .Items()
         // Query for the top 5000 items
