@@ -49,7 +49,7 @@
     <None Include="Lists\Dev\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{4aebe44f-6036-4d59-8f35-e0dc80d57394}</SharePointProjectItemId>
     </None>
-    <None Include="package.json" />
+    <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{bbe4837f-9dc4-4894-ab92-81a3b6f2d883}</SharePointProjectItemId>
     </None>
@@ -57,8 +57,6 @@
     <Content Include="Lists\Dev\DevInstance\Elements.xml" />
     <Content Include="Lists\Dev\Elements.xml" />
     <Content Include="Lists\Dev\Schema.xml" />
-    <Content Include="node_modules\gd-sprest\dist\gd-sprest.js" />
-    <Content Include="node_modules\gd-sprest\dist\gd-sprest.min.js" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
     <None Include="SharePointProjectItem.spdata">
@@ -71,6 +69,8 @@
     </None>
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\gd-sprest.js" />
+    <Content Include="Scripts\gd-sprest.min.js" />
     <Content Include="Scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>
@@ -109,7 +109,7 @@
     </AppManifestFile>
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="node_modules\gd-sprest\dist\gd-sprest.d.ts" />
+    <TypeScriptCompile Include="Scripts\gd-sprest.d.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
