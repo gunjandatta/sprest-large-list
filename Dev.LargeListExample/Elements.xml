@@ -2,8 +2,5 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="RootModule">
     <File Path="package.json" Url="package.json" ReplaceContent="TRUE" />
-    <File Path="node_modules\gd-sprest\dist\gd-sprest.d.ts" Url="node_modules/gd-sprest/dist/gd-sprest.d.ts" ReplaceContent="TRUE" />
-    <File Path="node_modules\gd-sprest\dist\gd-sprest.js" Url="node_modules/gd-sprest/dist/gd-sprest.js" ReplaceContent="TRUE" />
-    <File Path="node_modules\gd-sprest\dist\gd-sprest.min.js" Url="node_modules/gd-sprest/dist/gd-sprest.min.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

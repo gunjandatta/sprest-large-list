@@ -3,8 +3,5 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Type="ElementManifest" />
     <ProjectItemFile Source="package.json" Type="ElementFile" />
-    <ProjectItemFile Source="node_modules\gd-sprest\dist\gd-sprest.d.ts" Target="node_modules\gd-sprest\dist\" Type="ElementFile" />
-    <ProjectItemFile Source="node_modules\gd-sprest\dist\gd-sprest.js" Target="node_modules\gd-sprest\dist\" Type="ElementFile" />
-    <ProjectItemFile Source="node_modules\gd-sprest\dist\gd-sprest.min.js" Target="node_modules\gd-sprest\dist\" Type="ElementFile" />
   </Files>
 </ProjectItem>
